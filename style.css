@@ -1,0 +1,220 @@
+body {
+	min-height: 100vh;
+	background-color: black;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+p, input {
+	margin: 0;
+	padding: 0;
+}
+
+.pages {
+	display: flex;
+	flex-direction: column;
+	background-color: #FFFFFF;
+	border-radius: 4px;
+	position: fixed;
+}
+
+.first-page {
+	width: 640px;
+	height: 264px;
+}
+
+.second-third-sixth-page {
+	width: 640px;
+	height: 328px;
+}
+
+.fourth-page {
+	width: 664px;
+	height: 576px;
+}
+
+.fifth-page {
+	width: 664px;
+	height: 608px;
+}
+ 
+.icon {
+	width: 24px;
+	height: 24px;
+	position: absolute;
+}
+
+.check-icon {
+	width: 80px;
+	height: 80px;
+	margin: 16px 0 32px 280px;
+}
+
+.x-icon {
+	top: 16px;
+	right: 16px;
+}
+
+.title {
+	margin-top: 40px;
+	font-family: 'Sora', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.title-center {
+	text-align: center;
+}
+
+.title-left {
+	margin: 40px 0 24px 20px;
+}
+
+.sms {
+	color: #A9A9A9;
+	text-align: center;
+	margin-top: 8px;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+	gap: 6px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.sms-numbers {
+	width: 48px;
+	height: 48px;
+	background-color: #FFFFFF;
+	border: 0.5px solid #DADADA;
+	border-radius: 12px;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 24px;
+	text-align: center;
+	margin: 40px 0;
+}
+
+.error {
+	margin: 32px 0 8px 0;
+	line-height: 30px;
+}
+
+.error::placeholder {
+	font-family: 'Sora', sans-serif;
+	color: #FF3B30;
+} 
+
+.wrong-code {
+	margin: 0 0 24px 212px;
+	font-family: 'Sora', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	color: #FF3B30;
+}
+
+.goal {
+	font-family: 'Sora', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.goal-left-down {
+	margin: 0 0 8px 24px;
+}
+
+.first-page-goal {
+	margin: 16px 0 0 16px;
+}
+
+.fourth-page-goal {
+	margin: 0 0 16px 24px;
+}
+
+.goal-input {
+	font-family: 'Sora', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	box-sizing: border-box;
+	padding-left: 16px;
+}
+
+.first-page input {
+	width: 608px;
+	height: 48px;
+	border: 0.5px solid #DADADA;
+	border-radius: 4px;
+	margin: 8px 0 16px 16px;
+	color: rgba(0, 0, 0, 0.25);
+}
+
+.input-box {
+	height: 48px;
+	opacity: 0.5;
+	border: 0.5px solid #AEAEAE;
+	border-radius: 8px;
+	margin: 0 8px 16px 0;
+	box-sizing: border-box;
+}
+
+.input-left {
+	margin-left: 24px;
+}
+
+.box-200w {
+	width: 200px;
+}
+
+.box-304w {
+	width: 304px;
+}
+
+.box-408w {
+	width: 408px;
+}
+
+.box-625w {
+	width: 625px;
+}
+
+.icon-move {
+	top: 12px;
+	right : 20px;
+}
+
+.relative {
+	position: relative;
+	display: inline-block;
+}
+
+.btn {
+	width: 384px;
+	height: 48px;
+	background-color: #232529;
+	border-radius: 4px;
+	font-family:Sora, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+	color: #FFFFFF;
+}
+
+.btn-140px {
+	 margin: 24px 0 0 140px;
+}
+
+.btn-128px {
+	margin: 0 0 0 128px;
+}
